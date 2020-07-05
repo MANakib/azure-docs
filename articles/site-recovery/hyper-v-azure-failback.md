@@ -50,7 +50,8 @@ To fail back Hyper-V VMs in Azure to the original on-premises VM, run a planned 
 	- Starts the on-premises VM.
 7. You can now sign into the on-premises VM machine to check that it's available as expected.
 8. The virtual machine is in a commit pending state. Click **Commit** to commit the failover.
-9. To complete the failback, click **Reverse Replicate** to start replicating the on-premises VM to Azure again.
+9. Now you need to click **Complete Migration**
+10. To complete the failback, click **Reverse Replicate** to start replicating the on-premises VM to Azure again.
 
 
 
